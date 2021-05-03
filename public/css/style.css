@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #fffff0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #ffd800;
+}
+
+.gs {
+  font-family: Georgia, serif;
+}
+.curs {
+  font-family: cursive;
+}
+.top {
+  margin-top: 15px;
+}
+h1 {
+  color: chocolate;
+}
+.btn {
+  margin-top: 15px;
+}
+.foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footr {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+.card {
+  margin-bottom: 20px;
+  background-color: #ffd800;
+}
+ul {
+  background-color: #ffd900a6;
+}
+.rech {
+  margin: 0 auto;
+}

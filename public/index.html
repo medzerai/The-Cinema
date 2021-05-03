@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinema</title>
+  <link rel="icon" href="./img/icon/icon256.png">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="manifest" href="./manifest.json">
+</head>
+
+<body onload="consulterFilm()">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand curs" href=""><img src="./img/icon/icon32.png" class="d-inline-block align-text-top">
+        Cinema</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./page/add.html">Ajouter film</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row top">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+    </div>
+    <h1>Consulter Film</h1>
+
+    <form class="row g-3" style="display: flex; justify-content: space-around;">
+      <div class="col-auto">
+        <label for="Nom" class="visually-hidden">Nom</label>
+        <input type="text" class="form-control" id="Nom" placeholder="Nom">
+      </div>
+      <div class="col-auto">
+        <label for="Année" class="visually-hidden">Année</label>
+        <input type="number" class="form-control" id="Année" placeholder="Année">
+      </div>
+      <div class="col-auto">
+        <label for="Genre" class="visually-hidden">Genre</label>
+        <input type="text" class="form-control" id="Genre" placeholder="Genre">
+      </div>
+      <div class="col-auto">
+        <button type="button" class="btn btn-warning rech" onclick="consulterFilm()">Rechercher</button>
+      </div>
+    </form>
+
+    <div class="row top" style="display: flex; justify-content: space-around;" id="content">
+    </div>
+  </div>
+  <footer class="text-center text-lg-start border footr">
+    <div class="text-center p-3 text-dark" style="background-color: rgba(255, 196, 0, 0.2);">
+      © 2021 Copyright: Powered by LGLSI
+    </div>
+  </footer>
+
+
+
+  <script src="./js/app.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

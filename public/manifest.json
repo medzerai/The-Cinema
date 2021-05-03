@@ -1,0 +1,22 @@
+{
+  "start_url": "./index.html",
+  "short_name": "Cinema",
+  "name": "The Cinema",
+  "description": "Mon premier Cinema web site",
+  "display": "fullscreen",
+  "background_color": "#FFFFF0",
+  "theme_color": "#FFD800",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./img/icon/icon64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "./img/icon/icon256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ]
+}
